@@ -47,7 +47,6 @@
     "typescript": "^5.5.3"
   },
   "scripts": {
-    "preinstall": "npm install --legacy-peer-deps || true",
     "build": "react-scripts build",
     "start": "react-scripts start",
     "test": "react-scripts test"
