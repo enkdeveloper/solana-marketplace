@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-900 text-white;
+}
+
+button {
+  @apply text-white bg-orange-500 px-4 py-2 rounded;
+}
+
+button:hover {
+  @apply bg-orange-600;
+}
+
+.container {
+  @apply mx-auto p-4;
+}
